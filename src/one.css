@@ -1,0 +1,48 @@
+body {
+    background-color: #f4f4f4; /* Light gray background for contrast */
+    font-family: 'Arial', sans-serif; /* Clean and modern font */
+}
+
+h1 {
+    text-align: center; /* Center the heading */
+    margin-top: 20px; /* Space above the heading */
+    color: #333; /* Dark text for better readability */
+}
+
+.container {
+    width: 80%; /* Increased width for better responsiveness */
+    max-width: 600px; /* Max width to prevent it from being too large */
+    margin: 50px auto; /* Center the container horizontally */
+    padding: 20px; /* Add padding inside the container */
+    border-radius: 10px; /* Rounded corners */
+    background-color: #fff; /* White background for content area */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+}
+
+.counter-container {
+    display: flex; /* Use Flexbox to arrange counters horizontally */
+    justify-content: space-between; /* Space them evenly */
+    align-items: center; /* Center items vertically */
+    margin-top: 20px; /* Space above the counters */
+}
+
+.counter {
+    flex: 1; /* Allow counters to grow and shrink */
+    font-size: 2rem; /* Increase font size for counters */
+    color: #007BFF; /* Blue color for counter numbers */
+    text-align: center; /* Center the text */
+    margin: 0 10px; /* Horizontal spacing between counters */
+    padding: 20px; /* Add some padding around the counters */
+    border-radius: 8px; /* Rounded corners for counter boxes */
+    background-color: #e9f5ff; /* Light blue background for counters */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Slight shadow for depth */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.counter:hover {
+    background-color: #cfe3ff; /* Change background on hover */
+}
+
+p {
+    margin: 0; /* Remove default margin */
+}
